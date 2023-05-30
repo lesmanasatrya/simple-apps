@@ -11,15 +11,22 @@ describe('Unit Test /', () => {
   });
 });
 
-describe('Unit Test /', () => {
+describe('Unit Test /1', () => {
     it('should respond with "Hello App1!"', async () => {
       const response = await request(app).get('/app1');
       expect(response.status).toBe(200);
     });
   });
 
-  describe('Unit Test /app5', () => {
+  describe('Unit Test /app2', () => {
     it('should respond with "Hello App2!"', async () => {
+      const response = await request(app).get('/app2');
+      expect(response.status).toBe(200);
+    });
+  });
+
+  describe('Unit Test /Lesmana, () => {
+    it('should respond with "Hello Lesmana!"', async () => {
       const response = await request(app).get('/app2');
       expect(response.status).toBe(200);
     });
@@ -35,7 +42,7 @@ describe('Integration Test Connect Database', () => {
       host: 'localhost',
       user: 'peserta',
       password: 'password',
-      database: 'devops'
+      database: 'training'
     });
 
     // Set the connection for the application to use
