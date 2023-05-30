@@ -25,9 +25,9 @@ describe('Unit Test /1', () => {
     });
   });
 
-  describe('Unit Test /Lesmana, () => {
+  describe('Unit Test /Lesmana', () => {
     it('should respond with "Hello Lesmana!"', async () => {
-      const response = await request(app).get('/app2');
+      const response = await request(app).get('/Lesmana');
       expect(response.status).toBe(200);
     });
   });
