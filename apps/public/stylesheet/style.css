@@ -1,9 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    background-color: aquamarine;
+    background-color:whitesmoke;
 }
 
 .logo {
     width: 10%;
+}
+
+hi {
+
+color: red;
+font-style:italic;
 }
